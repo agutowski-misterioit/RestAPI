@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./app",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "module": "commonjs",
+    "target": "ES2021",
+    "allowJs": true,
+    "skipLibCheck": true // otherwise 12 errors
+  },
+  "include": ["ts_src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
